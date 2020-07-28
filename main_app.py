@@ -3,6 +3,8 @@ from flask import Flask, jsonify, request, url_for, redirect, session
 
 app = Flask(__name__)
 
+test = 10
+
 app.config.update(
     TESTING=True,
     DEBUG=True,
